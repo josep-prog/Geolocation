@@ -365,12 +365,20 @@ Geolocation/
 
 \- Test suite using \`unittest\` or \`pytest\`
 
-***Installation***
+        ***To run this project***
 
 ***1\. Clone the repository***
 
 git clone [https://github.com/josep-prog/Geolocation.git](https://github.com/josep-prog/Geolocation.git)  
 cd Geolocation
+
+npm install
+
+npm run dev 
+
+NOTE: 
+
+* If this commands are failing to run , you might prefer to use “sudo” command
 
 ***Author :*** Joseph Nishimwe
 
@@ -381,4 +389,6 @@ cd Geolocation
  ***GitHub Repository***
 
 \[[https://github.com/josep-prog/Geolocation\](https://github.com/josep-prog/Geolocation)](https://github.com/josep-prog/Geolocation]\(https://github.com/josep-prog/Geolocation\))
+
+ 
 
