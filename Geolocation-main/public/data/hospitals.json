@@ -1,0 +1,619 @@
+{
+  "hospitals": [
+    {
+      "id": "1",
+      "name": "Kigali University Teaching Hospital (CHUK)",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Nyarugenge",
+      "sector": "Gitega",
+      "cell": "Kigali",
+      "village": "Hospital",
+      "coordinates": {
+        "latitude": -1.9441,
+        "longitude": 30.0619
+      },
+      "rating": 4.8,
+      "reviewCount": 320,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Obstetrics & Gynecology"
+      ],
+      "specialties": ["Malaria", "Tuberculosis", "Cancer", "Heart Disease"],
+      "contact": {
+        "phone": "+250 788 123 456",
+        "email": "info@chuk.rw",
+        "website": "www.chuk.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "2",
+      "name": "King Faisal Hospital",
+      "type": "Private",
+      "province": "Kigali City",
+      "district": "Gasabo",
+      "sector": "Remera",
+      "cell": "Nyabisindu",
+      "village": "Amarembo II",
+      "coordinates": {
+        "latitude": -1.9563,
+        "longitude": 30.0911
+      },
+      "rating": 4.9,
+      "reviewCount": 450,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology"
+      ],
+      "specialties": ["Cardiology", "Neurology", "Oncology", "Pediatrics", "Orthopedics"],
+      "contact": {
+        "phone": "+250 788 234 567",
+        "email": "info@kfh.rw",
+        "website": "www.kfh.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Sunday: 8:00-20:00"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Kibagabaga Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Gasabo",
+      "sector": "Kimironko",
+      "cell": "Kibagabaga",
+      "village": "Kibagabaga",
+      "coordinates": {
+        "latitude": -1.9395,
+        "longitude": 30.1195
+      },
+      "rating": 4.4,
+      "reviewCount": 280,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 345 678",
+        "email": "info@kibagabaga.rw",
+        "website": "www.kibagabaga.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "4",
+      "name": "CHUB - University Teaching Hospital of Butare",
+      "type": "Public",
+      "province": "Southern Province",
+      "district": "Huye",
+      "sector": "Ngoma",
+      "cell": "Butare",
+      "village": "Hospital",
+      "coordinates": {
+        "latitude": -2.6027,
+        "longitude": 29.7390
+      },
+      "rating": 4.7,
+      "reviewCount": 280,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Research"
+      ],
+      "specialties": ["Cardiology", "Neurology", "Oncology", "Research"],
+      "contact": {
+        "phone": "+250 788 456 789",
+        "email": "info@chub.rw",
+        "website": "www.chub.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Ruhengeri Referral Hospital",
+      "type": "Public",
+      "province": "Northern Province",
+      "district": "Musanze",
+      "sector": "Muhoza",
+      "cell": "Cyabararika",
+      "village": "Kigombe",
+      "coordinates": {
+        "latitude": -1.4989,
+        "longitude": 29.6320
+      },
+      "rating": 4.4,
+      "reviewCount": 150,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Orthopedics"
+      ],
+      "specialties": ["Internal Medicine", "Orthopedics", "Emergency Care"],
+      "contact": {
+        "phone": "+250 788 567 890",
+        "email": "info@ruhengeri.rw",
+        "website": "www.ruhengeri.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Masaka District Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Kicukiro",
+      "sector": "Masaka",
+      "cell": "Masaka",
+      "village": "Masaka",
+      "coordinates": {
+        "latitude": -2.0012,
+        "longitude": 30.1934
+      },
+      "rating": 4.3,
+      "reviewCount": 180,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 678 901",
+        "email": "info@masaka.rw",
+        "website": "www.masaka.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Nyamata District Hospital",
+      "type": "Public",
+      "province": "Eastern Province",
+      "district": "Bugesera",
+      "sector": "Nyamata",
+      "cell": "Nyamata",
+      "village": "Nyamata",
+      "coordinates": {
+        "latitude": -2.1385,
+        "longitude": 30.1934
+      },
+      "rating": 4.2,
+      "reviewCount": 120,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 789 012",
+        "email": "info@nyamata.rw",
+        "website": "www.nyamata.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Rwamagana Provincial Hospital",
+      "type": "Public",
+      "province": "Eastern Province",
+      "district": "Rwamagana",
+      "sector": "Rwamagana",
+      "cell": "Rwamagana",
+      "village": "Hospital",
+      "coordinates": {
+        "latitude": -1.9486,
+        "longitude": 30.4347
+      },
+      "rating": 4.5,
+      "reviewCount": 200,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Obstetrics"
+      ],
+      "specialties": ["General Surgery", "Obstetrics", "Internal Medicine"],
+      "contact": {
+        "phone": "+250 788 890 123",
+        "email": "info@rwamagana.rw",
+        "website": "www.rwamagana.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Karongi District Hospital",
+      "type": "Public",
+      "province": "Western Province",
+      "district": "Karongi",
+      "sector": "Bwishyura",
+      "cell": "Bwishyura",
+      "village": "Hospital",
+      "coordinates": {
+        "latitude": -2.0583,
+        "longitude": 29.3600
+      },
+      "rating": 4.3,
+      "reviewCount": 150,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 901 234",
+        "email": "info@karongi.rw",
+        "website": "www.karongi.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Rubavu District Hospital",
+      "type": "Public",
+      "province": "Western Province",
+      "district": "Rubavu",
+      "sector": "Gisenyi",
+      "cell": "Gisenyi",
+      "village": "Hospital",
+      "coordinates": {
+        "latitude": -1.7006,
+        "longitude": 29.2570
+      },
+      "rating": 4.4,
+      "reviewCount": 180,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 012 345",
+        "email": "info@rubavu.rw",
+        "website": "www.rubavu.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Muhima District Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Nyarugenge",
+      "sector": "Muhima",
+      "cell": "Muhima",
+      "village": "Muhima",
+      "coordinates": {
+        "latitude": -1.9447,
+        "longitude": 30.0574
+      },
+      "rating": 4.6,
+      "reviewCount": 220,
+      "services": [
+        "Emergency Care",
+        "Maternity",
+        "Pediatrics",
+        "Internal Medicine",
+        "Surgery"
+      ],
+      "specialties": ["Obstetrics", "Gynecology", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 123 456",
+        "email": "info@muhima.rw",
+        "website": "www.muhima.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Rwanda Military Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Kicukiro",
+      "sector": "Kanombe",
+      "cell": "Kanombe",
+      "village": "Military",
+      "coordinates": {
+        "latitude": -1.9686,
+        "longitude": 30.1397
+      },
+      "rating": 4.7,
+      "reviewCount": 280,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Orthopedics",
+        "Trauma"
+      ],
+      "specialties": ["Trauma", "Orthopedics", "General Surgery"],
+      "contact": {
+        "phone": "+250 788 234 567",
+        "email": "info@rmh.rw",
+        "website": "www.rmh.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Hopital la Croix du Sud",
+      "type": "Private",
+      "province": "Kigali City",
+      "district": "Nyarugenge",
+      "sector": "Nyarugenge",
+      "coordinates": {
+        "latitude": -1.9512,
+        "longitude": 30.0589
+      },
+      "rating": 4.6,
+      "reviewCount": 180,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Diagnostic Imaging"
+      ],
+      "specialties": ["General Surgery", "Internal Medicine", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 456 789",
+        "email": "info@croixdusud.rw",
+        "website": "www.croixdusud.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Saturday: 8:00-18:00"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Kacyiru Police Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Gasabo",
+      "sector": "Kacyiru",
+      "coordinates": {
+        "latitude": -1.9423,
+        "longitude": 30.0921
+      },
+      "rating": 4.3,
+      "reviewCount": 150,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Trauma Care"
+      ],
+      "specialties": ["Emergency Medicine", "Trauma Care", "General Medicine"],
+      "contact": {
+        "phone": "+250 788 567 890",
+        "email": "info@kph.rw",
+        "website": "www.kph.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Masaka Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Kicukiro",
+      "sector": "Masaka",
+      "coordinates": {
+        "latitude": -2.0012,
+        "longitude": 30.1934
+      },
+      "rating": 4.3,
+      "reviewCount": 180,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 678 901",
+        "email": "info@masaka.rw",
+        "website": "www.masaka.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Ndera Neuropsychiatric Teaching Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Gasabo",
+      "sector": "Ndera",
+      "coordinates": {
+        "latitude": -1.9234,
+        "longitude": 30.1456
+      },
+      "rating": 4.5,
+      "reviewCount": 120,
+      "services": [
+        "Mental Health Care",
+        "Psychiatry",
+        "Psychology",
+        "Neurology",
+        "Rehabilitation"
+      ],
+      "specialties": ["Psychiatry", "Neurology", "Mental Health"],
+      "contact": {
+        "phone": "+250 788 789 012",
+        "email": "info@ndera.rw",
+        "website": "www.ndera.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 8:00-16:00"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Nyarugenge Hospital",
+      "type": "Public",
+      "province": "Kigali City",
+      "district": "Nyarugenge",
+      "sector": "Nyarugenge",
+      "coordinates": {
+        "latitude": -1.9534,
+        "longitude": 30.0589
+      },
+      "rating": 4.2,
+      "reviewCount": 140,
+      "services": [
+        "Emergency Care",
+        "Internal Medicine",
+        "Pediatrics",
+        "Maternity",
+        "General Surgery"
+      ],
+      "specialties": ["General Medicine", "Obstetrics", "Pediatrics"],
+      "contact": {
+        "phone": "+250 788 890 123",
+        "email": "info@nyarugenge.rw",
+        "website": "www.nyarugenge.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Friday: 7:00-17:00"
+      }
+    },
+    {
+      "id": "18",
+      "name": "BAHO International Hospital",
+      "type": "Private",
+      "province": "Kigali City",
+      "district": "Nyarugenge",
+      "sector": "Nyarugenge",
+      "coordinates": {
+        "latitude": -1.9498,
+        "longitude": 30.0623
+      },
+      "rating": 4.7,
+      "reviewCount": 160,
+      "services": [
+        "Emergency Care",
+        "Surgery",
+        "Internal Medicine",
+        "Pediatrics",
+        "Diagnostic Services"
+      ],
+      "specialties": ["General Surgery", "Internal Medicine", "Pediatrics", "Diagnostics"],
+      "contact": {
+        "phone": "+250 788 901 234",
+        "email": "info@baho.rw",
+        "website": "www.baho.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Sunday: 8:00-20:00"
+      }
+    },
+    {
+      "id": "19",
+      "name": "WIWO Specialized Hospital",
+      "type": "Private",
+      "province": "Kigali City",
+      "district": "Gasabo",
+      "sector": "Remera",
+      "coordinates": {
+        "latitude": -1.9589,
+        "longitude": 30.0934
+      },
+      "rating": 4.8,
+      "reviewCount": 130,
+      "services": [
+        "Specialized Surgery",
+        "Internal Medicine",
+        "Diagnostic Imaging",
+        "Laboratory Services",
+        "Rehabilitation"
+      ],
+      "specialties": ["Specialized Surgery", "Advanced Diagnostics", "Rehabilitation"],
+      "contact": {
+        "phone": "+250 788 012 345",
+        "email": "info@wiwo.rw",
+        "website": "www.wiwo.rw"
+      },
+      "workingHours": {
+        "emergency": "24/7",
+        "regular": "Monday-Saturday: 8:00-19:00"
+      }
+    }
+  ]
+} 
