@@ -1,0 +1,1337 @@
+{
+  "provinces": [
+    {
+      "name": "Eastern Province",
+      "districts": [
+        {
+          "name": "Bugesera",
+          "sectors": [
+            {
+              "name": "Gashora",
+              "cells": [
+                {
+                  "name": "Biryogo",
+                  "villages": ["Biryogo", "Karambi", "Nyabagendwa"]
+                }
+              ]
+            },
+            {
+              "name": "Juru",
+              "cells": [
+                {
+                  "name": "Juru",
+                  "villages": ["Juru", "Kabeza", "Nyamata"]
+                }
+              ]
+            },
+            {
+              "name": "Mareba",
+              "cells": [
+                {
+                  "name": "Mareba",
+                  "villages": ["Mareba", "Nyarugenge", "Rweru"]
+                }
+              ]
+            },
+            {
+              "name": "Mayange",
+              "cells": [
+                {
+                  "name": "Mayange",
+                  "villages": ["Mayange", "Musenyi", "Nyamigina"]
+                }
+              ]
+            },
+            {
+              "name": "Musenyi",
+              "cells": [
+                {
+                  "name": "Musenyi",
+                  "villages": ["Musenyi", "Nyagihunika", "Rulindo"]
+                }
+              ]
+            },
+            {
+              "name": "Mwogo",
+              "cells": [
+                {
+                  "name": "Mwogo",
+                  "villages": ["Mwogo", "Ruhuha", "Shyara"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gatsibo",
+          "sectors": [
+            {
+              "name": "Gasange",
+              "cells": [
+                {
+                  "name": "Gasange",
+                  "villages": ["Gasange", "Kabarore", "Nyagahanga"]
+                }
+              ]
+            },
+            {
+              "name": "Gatsibo",
+              "cells": [
+                {
+                  "name": "Gatsibo",
+                  "villages": ["Gatsibo", "Muhura", "Nyagihanga"]
+                }
+              ]
+            },
+            {
+              "name": "Gitoki",
+              "cells": [
+                {
+                  "name": "Gitoki",
+                  "villages": ["Gitoki", "Kabarore", "Muhura"]
+                }
+              ]
+            },
+            {
+              "name": "Kabarore",
+              "cells": [
+                {
+                  "name": "Kabarore",
+                  "villages": ["Kabarore", "Marimba", "Nyamirama"]
+                }
+              ]
+            },
+            {
+              "name": "Kiramuruzi",
+              "cells": [
+                {
+                  "name": "Kiramuruzi",
+                  "villages": ["Kiramuruzi", "Ngarama", "Rugarama"]
+                }
+              ]
+            },
+            {
+              "name": "Muhura",
+              "cells": [
+                {
+                  "name": "Muhura",
+                  "villages": ["Muhura", "Remera", "Rwimbogo"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kayonza",
+          "sectors": [
+            {
+              "name": "Gahini",
+              "cells": [
+                {
+                  "name": "Gahini",
+                  "villages": ["Gahini", "Kabarondo", "Mukarange"]
+                }
+              ]
+            },
+            {
+              "name": "Kabare",
+              "cells": [
+                {
+                  "name": "Kabare",
+                  "villages": ["Kabare", "Murundi", "Ryamanyoni"]
+                }
+              ]
+            },
+            {
+              "name": "Kabarondo",
+              "cells": [
+                {
+                  "name": "Kabarondo",
+                  "villages": ["Kabarondo", "Murama", "Ruramira"]
+                }
+              ]
+            },
+            {
+              "name": "Mukarange",
+              "cells": [
+                {
+                  "name": "Mukarange",
+                  "villages": ["Mukarange", "Nyamirama", "Rukara"]
+                }
+              ]
+            },
+            {
+              "name": "Murama",
+              "cells": [
+                {
+                  "name": "Murama",
+                  "villages": ["Murama", "Ndego", "Nyamirama"]
+                }
+              ]
+            },
+            {
+              "name": "Rukara",
+              "cells": [
+                {
+                  "name": "Rukara",
+                  "villages": ["Rukara", "Rwinkwavu", "Mwiri"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kirehe",
+          "sectors": [
+            {
+              "name": "Kirehe",
+              "cells": [
+                {
+                  "name": "Kirehe",
+                  "villages": ["Kirehe", "Nyakarambi", "Gahara"]
+                }
+              ]
+            },
+            {
+              "name": "Gahara",
+              "cells": [
+                {
+                  "name": "Gahara",
+                  "villages": ["Gahara", "Musaza", "Nyamugari"]
+                }
+              ]
+            },
+            {
+              "name": "Kigarama",
+              "cells": [
+                {
+                  "name": "Kigarama",
+                  "villages": ["Kigarama", "Nyarubuye", "Mushikiri"]
+                }
+              ]
+            },
+            {
+              "name": "Musaza",
+              "cells": [
+                {
+                  "name": "Musaza",
+                  "villages": ["Musaza", "Nasho", "Mpanga"]
+                }
+              ]
+            },
+            {
+              "name": "Nyamugari",
+              "cells": [
+                {
+                  "name": "Nyamugari",
+                  "villages": ["Nyamugari", "Mahama", "Kiyanzi"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ngoma",
+          "sectors": [
+            {
+              "name": "Kibungo",
+              "cells": [
+                {
+                  "name": "Kibungo",
+                  "villages": ["Kibungo", "Rukira", "Zaza"]
+                }
+              ]
+            },
+            {
+              "name": "Kazo",
+              "cells": [
+                {
+                  "name": "Kazo",
+                  "villages": ["Kazo", "Mutenderi", "Remera"]
+                }
+              ]
+            },
+            {
+              "name": "Murama",
+              "cells": [
+                {
+                  "name": "Murama",
+                  "villages": ["Murama", "Rukira", "Sake"]
+                }
+              ]
+            },
+            {
+              "name": "Remera",
+              "cells": [
+                {
+                  "name": "Remera",
+                  "villages": ["Remera", "Rurenge", "Jarama"]
+                }
+              ]
+            },
+            {
+              "name": "Sake",
+              "cells": [
+                {
+                  "name": "Sake",
+                  "villages": ["Sake", "Kibungo", "Gashanda"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyagatare",
+          "sectors": [
+            {
+              "name": "Nyagatare",
+              "cells": [
+                {
+                  "name": "Nyagatare",
+                  "villages": ["Nyagatare", "Rukomo", "Matimba"]
+                }
+              ]
+            },
+            {
+              "name": "Karama",
+              "cells": [
+                {
+                  "name": "Karama",
+                  "villages": ["Karama", "Rukomo", "Rwempasha"]
+                }
+              ]
+            },
+            {
+              "name": "Matimba",
+              "cells": [
+                {
+                  "name": "Matimba",
+                  "villages": ["Matimba", "Musheri", "Rwimiyaga"]
+                }
+              ]
+            },
+            {
+              "name": "Musheri",
+              "cells": [
+                {
+                  "name": "Musheri",
+                  "villages": ["Musheri", "Tabagwe", "Rwimiyaga"]
+                }
+              ]
+            },
+            {
+              "name": "Rukomo",
+              "cells": [
+                {
+                  "name": "Rukomo",
+                  "villages": ["Rukomo", "Rwimiyaga", "Karama"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rwamagana",
+          "sectors": [
+            {
+              "name": "Rwamagana",
+              "cells": [
+                {
+                  "name": "Rwamagana",
+                  "villages": ["Rwamagana", "Munyaga", "Fumbwe"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kigali City",
+      "districts": [
+        {
+          "name": "Gasabo",
+          "sectors": [
+            {
+              "name": "Bumbogo",
+              "cells": [
+                {
+                  "name": "Bumbogo",
+                  "villages": ["Bumbogo", "Kinyinya", "Ndera"]
+                }
+              ]
+            },
+            {
+              "name": "Kacyiru",
+              "cells": [
+                {
+                  "name": "Kamatamu",
+                  "villages": ["Kamatamu", "Kibaza", "Ruganwa"]
+                }
+              ]
+            },
+            {
+              "name": "Kimihurura",
+              "cells": [
+                {
+                  "name": "Kimihurura",
+                  "villages": ["Kimihurura", "Rugenge", "Kamutwa"]
+                }
+              ]
+            },
+            {
+              "name": "Kimironko",
+              "cells": [
+                {
+                  "name": "Kimironko",
+                  "villages": ["Kimironko", "Bibare", "Kibagabaga"]
+                }
+              ]
+            },
+            {
+              "name": "Remera",
+              "cells": [
+                {
+                  "name": "Remera",
+                  "villages": ["Remera", "Nyarutarama", "Rukiri"]
+                }
+              ]
+            },
+            {
+              "name": "Rusororo",
+              "cells": [
+                {
+                  "name": "Rusororo",
+                  "villages": ["Rusororo", "Nyagahinga", "Gasagara"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kicukiro",
+          "sectors": [
+            {
+              "name": "Gahanga",
+              "cells": [
+                {
+                  "name": "Gahanga",
+                  "villages": ["Gahanga", "Kabeza", "Kanombe"]
+                }
+              ]
+            },
+            {
+              "name": "Kagarama",
+              "cells": [
+                {
+                  "name": "Kagarama",
+                  "villages": ["Kagarama", "Niboye", "Karugira"]
+                }
+              ]
+            },
+            {
+              "name": "Kanombe",
+              "cells": [
+                {
+                  "name": "Kanombe",
+                  "villages": ["Kanombe", "Busanza", "Nyarugunga"]
+                }
+              ]
+            },
+            {
+              "name": "Kigarama",
+              "cells": [
+                {
+                  "name": "Kigarama",
+                  "villages": ["Kigarama", "Masaka", "Nyarurama"]
+                }
+              ]
+            },
+            {
+              "name": "Niboye",
+              "cells": [
+                {
+                  "name": "Niboye",
+                  "villages": ["Niboye", "Gatare", "Karugira"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyarugenge",
+          "sectors": [
+            {
+              "name": "Gitega",
+              "cells": [
+                {
+                  "name": "Gitega",
+                  "villages": ["Gitega", "Kigali", "Muhima"]
+                }
+              ]
+            },
+            {
+              "name": "Kanyinya",
+              "cells": [
+                {
+                  "name": "Kanyinya",
+                  "villages": ["Kanyinya", "Nyarugenge", "Rwezamenyo"]
+                }
+              ]
+            },
+            {
+              "name": "Kigali",
+              "cells": [
+                {
+                  "name": "Kigali",
+                  "villages": ["Kigali", "Nyarugenge", "Muhima"]
+                }
+              ]
+            },
+            {
+              "name": "Muhima",
+              "cells": [
+                {
+                  "name": "Muhima",
+                  "villages": ["Muhima", "Nyabugogo", "Rugenge"]
+                }
+              ]
+            },
+            {
+              "name": "Nyakabanda",
+              "cells": [
+                {
+                  "name": "Nyakabanda",
+                  "villages": ["Nyakabanda", "Rwezamenyo", "Kimisagara"]
+                }
+              ]
+            },
+            {
+              "name": "Nyamirambo",
+              "cells": [
+                {
+                  "name": "Nyamirambo",
+                  "villages": ["Nyamirambo", "Kimisagara", "Mageragere"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Northern Province",
+      "districts": [
+        {
+          "name": "Burera",
+          "sectors": [
+            {
+              "name": "Bungwe",
+              "cells": [
+                {
+                  "name": "Bungwe",
+                  "villages": ["Bungwe", "Cyeru", "Gahunga"]
+                }
+              ]
+            },
+            {
+              "name": "Cyeru",
+              "cells": [
+                {
+                  "name": "Cyeru",
+                  "villages": ["Cyeru", "Kivuye", "Rugarama"]
+                }
+              ]
+            },
+            {
+              "name": "Gahunga",
+              "cells": [
+                {
+                  "name": "Gahunga",
+                  "villages": ["Gahunga", "Rusarabuye", "Rwerere"]
+                }
+              ]
+            },
+            {
+              "name": "Kinoni",
+              "cells": [
+                {
+                  "name": "Kinoni",
+                  "villages": ["Kinoni", "Butaro", "Kivuye"]
+                }
+              ]
+            },
+            {
+              "name": "Nemba",
+              "cells": [
+                {
+                  "name": "Nemba",
+                  "villages": ["Nemba", "Rugarama", "Ruhunde"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gakenke",
+          "sectors": [
+            {
+              "name": "Busengo",
+              "cells": [
+                {
+                  "name": "Busengo",
+                  "villages": ["Busengo", "Janja", "Ruli"]
+                }
+              ]
+            },
+            {
+              "name": "Cyabingo",
+              "cells": [
+                {
+                  "name": "Cyabingo",
+                  "villages": ["Cyabingo", "Mugunga", "Ruli"]
+                }
+              ]
+            },
+            {
+              "name": "Gakenke",
+              "cells": [
+                {
+                  "name": "Gakenke",
+                  "villages": ["Gakenke", "Janja", "Nemba"]
+                }
+              ]
+            },
+            {
+              "name": "Janja",
+              "cells": [
+                {
+                  "name": "Janja",
+                  "villages": ["Janja", "Mugunga", "Rusasa"]
+                }
+              ]
+            },
+            {
+              "name": "Mugunga",
+              "cells": [
+                {
+                  "name": "Mugunga",
+                  "villages": ["Mugunga", "Rushashi", "Ruli"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Musanze",
+          "sectors": [
+            {
+              "name": "Busogo",
+              "cells": [
+                {
+                  "name": "Busogo",
+                  "villages": ["Busogo", "Kinigi", "Nyange"]
+                }
+              ]
+            },
+            {
+              "name": "Cyuve",
+              "cells": [
+                {
+                  "name": "Cyuve",
+                  "villages": ["Cyuve", "Musanze", "Ruhengeri"]
+                }
+              ]
+            },
+            {
+              "name": "Kinigi",
+              "cells": [
+                {
+                  "name": "Kinigi",
+                  "villages": ["Kinigi", "Nyange", "Shingiro"]
+                }
+              ]
+            },
+            {
+              "name": "Muhoza",
+              "cells": [
+                {
+                  "name": "Muhoza",
+                  "villages": ["Muhoza", "Musanze", "Ruhengeri"]
+                }
+              ]
+            },
+            {
+              "name": "Muko",
+              "cells": [
+                {
+                  "name": "Muko",
+                  "villages": ["Muko", "Nkotsi", "Shingiro"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gicumbi",
+          "sectors": [
+            {
+              "name": "Byumba",
+              "cells": [
+                {
+                  "name": "Byumba",
+                  "villages": ["Byumba", "Miyove", "Rushaki"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rulindo",
+          "sectors": [
+            {
+              "name": "Base",
+              "cells": [
+                {
+                  "name": "Base",
+                  "villages": ["Base", "Bushoki", "Cyungo"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southern Province",
+      "districts": [
+        {
+          "name": "Gisagara",
+          "sectors": [
+            {
+              "name": "Gikonko",
+              "cells": [
+                {
+                  "name": "Gikonko",
+                  "villages": ["Gikonko", "Muganza", "Save"]
+                }
+              ]
+            },
+            {
+              "name": "Gishubi",
+              "cells": [
+                {
+                  "name": "Gishubi",
+                  "villages": ["Gishubi", "Kansi", "Kigembe"]
+                }
+              ]
+            },
+            {
+              "name": "Kibirizi",
+              "cells": [
+                {
+                  "name": "Kibirizi",
+                  "villages": ["Kibirizi", "Muganza", "Ndora"]
+                }
+              ]
+            },
+            {
+              "name": "Muganza",
+              "cells": [
+                {
+                  "name": "Muganza",
+                  "villages": ["Muganza", "Ndora", "Save"]
+                }
+              ]
+            },
+            {
+              "name": "Save",
+              "cells": [
+                {
+                  "name": "Save",
+                  "villages": ["Save", "Kigembe", "Musha"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huye",
+          "sectors": [
+            {
+              "name": "Gishamvu",
+              "cells": [
+                {
+                  "name": "Gishamvu",
+                  "villages": ["Gishamvu", "Maraba", "Tumba"]
+                }
+              ]
+            },
+            {
+              "name": "Huye",
+              "cells": [
+                {
+                  "name": "Huye",
+                  "villages": ["Huye", "Ngoma", "Tumba"]
+                }
+              ]
+            },
+            {
+              "name": "Mbazi",
+              "cells": [
+                {
+                  "name": "Mbazi",
+                  "villages": ["Mbazi", "Ruhashya", "Simbi"]
+                }
+              ]
+            },
+            {
+              "name": "Mukura",
+              "cells": [
+                {
+                  "name": "Mukura",
+                  "villages": ["Mukura", "Rusatira", "Rwaniro"]
+                }
+              ]
+            },
+            {
+              "name": "Tumba",
+              "cells": [
+                {
+                  "name": "Tumba",
+                  "villages": ["Tumba", "Ngoma", "Sovu"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyamagabe",
+          "sectors": [
+            {
+              "name": "Buruhukiro",
+              "cells": [
+                {
+                  "name": "Buruhukiro",
+                  "villages": ["Buruhukiro", "Gatare", "Kaduha"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kamonyi",
+          "sectors": [
+            {
+              "name": "Runda",
+              "cells": [
+                {
+                  "name": "Runda",
+                  "villages": ["Runda", "Gacurabwenge", "Kayenzi"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Muhanga",
+          "sectors": [
+            {
+              "name": "Nyamabuye",
+              "cells": [
+                {
+                  "name": "Nyamabuye",
+                  "villages": ["Nyamabuye", "Shyogwe", "Cyeza"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyanza",
+          "sectors": [
+            {
+              "name": "Nyanza",
+              "cells": [
+                {
+                  "name": "Nyanza",
+                  "villages": ["Nyanza", "Busasamana", "Rwabicuma"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyaruguru",
+          "sectors": [
+            {
+              "name": "Kibeho",
+              "cells": [
+                {
+                  "name": "Kibeho",
+                  "villages": ["Kibeho", "Mata", "Nyagisozi"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ruhango",
+          "sectors": [
+            {
+              "name": "Ruhango",
+              "cells": [
+                {
+                  "name": "Ruhango",
+                  "villages": ["Ruhango", "Bweramana", "Kinazi"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Western Province",
+      "districts": [
+        {
+          "name": "Karongi",
+          "sectors": [
+            {
+              "name": "Bwishyura",
+              "cells": [
+                {
+                  "name": "Bwishyura",
+                  "villages": ["Bwishyura", "Gashari", "Gitesi"]
+                }
+              ]
+            },
+            {
+              "name": "Gashari",
+              "cells": [
+                {
+                  "name": "Gashari",
+                  "villages": ["Gashari", "Gitesi", "Mubuga"]
+                }
+              ]
+            },
+            {
+              "name": "Gitesi",
+              "cells": [
+                {
+                  "name": "Gitesi",
+                  "villages": ["Gitesi", "Mubuga", "Murambi"]
+                }
+              ]
+            },
+            {
+              "name": "Mubuga",
+              "cells": [
+                {
+                  "name": "Mubuga",
+                  "villages": ["Mubuga", "Murambi", "Rubengera"]
+                }
+              ]
+            },
+            {
+              "name": "Rubengera",
+              "cells": [
+                {
+                  "name": "Rubengera",
+                  "villages": ["Rubengera", "Twumba", "Gishyita"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rubavu",
+          "sectors": [
+            {
+              "name": "Bugeshi",
+              "cells": [
+                {
+                  "name": "Bugeshi",
+                  "villages": ["Bugeshi", "Gisenyi", "Nyundo"]
+                }
+              ]
+            },
+            {
+              "name": "Gisenyi",
+              "cells": [
+                {
+                  "name": "Gisenyi",
+                  "villages": ["Gisenyi", "Rugerero", "Nyamyumba"]
+                }
+              ]
+            },
+            {
+              "name": "Nyamyumba",
+              "cells": [
+                {
+                  "name": "Nyamyumba",
+                  "villages": ["Nyamyumba", "Rubavu", "Nyundo"]
+                }
+              ]
+            },
+            {
+              "name": "Rubavu",
+              "cells": [
+                {
+                  "name": "Rubavu",
+                  "villages": ["Rubavu", "Rugerero", "Nyundo"]
+                }
+              ]
+            },
+            {
+              "name": "Rugerero",
+              "cells": [
+                {
+                  "name": "Rugerero",
+                  "villages": ["Rugerero", "Nyundo", "Mudende"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyabihu",
+          "sectors": [
+            {
+              "name": "Mukamira",
+              "cells": [
+                {
+                  "name": "Mukamira",
+                  "villages": ["Mukamira", "Jenda", "Karago"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nyamasheke",
+          "sectors": [
+            {
+              "name": "Nyamasheke",
+              "cells": [
+                {
+                  "name": "Nyamasheke",
+                  "villages": ["Nyamasheke", "Kagano", "Mahembe"]
+                }
+              ]
+            },
+            {
+              "name": "Bushekeri",
+              "cells": [{"name": "Bushekeri", "villages": ["Bushekeri", "Kagano", "Kanjongo"]}]
+            },
+            {
+              "name": "Bushenge",
+              "cells": [{"name": "Bushenge", "villages": ["Bushenge", "Karengera", "Nyabitekeri"]}]
+            },
+            {
+              "name": "Cyato",
+              "cells": [{"name": "Cyato", "villages": ["Cyato", "Kagano", "Rangiro"]}]
+            },
+            {
+              "name": "Gihombo",
+              "cells": [{"name": "Gihombo", "villages": ["Gihombo", "Karengera", "Shangi"]}]
+            },
+            {
+              "name": "Kagano",
+              "cells": [{"name": "Kagano", "villages": ["Kagano", "Bushekeri", "Cyato"]}]
+            },
+            {
+              "name": "Kanjongo",
+              "cells": [{"name": "Kanjongo", "villages": ["Kanjongo", "Bushekeri", "Macuba"]}]
+            },
+            {
+              "name": "Karambi",
+              "cells": [{"name": "Karambi", "villages": ["Karambi", "Ruharambuga", "Shangi"]}]
+            },
+            {
+              "name": "Karengera",
+              "cells": [{"name": "Karengera", "villages": ["Karengera", "Bushenge", "Gihombo"]}]
+            },
+            {
+              "name": "Kirimbi",
+              "cells": [{"name": "Kirimbi", "villages": ["Kirimbi", "Macuba", "Rangiro"]}]
+            },
+            {
+              "name": "Macuba",
+              "cells": [{"name": "Macuba", "villages": ["Macuba", "Kanjongo", "Kirimbi"]}]
+            },
+            {
+              "name": "Mahembe",
+              "cells": [{"name": "Mahembe", "villages": ["Mahembe", "Rangiro", "Shangi"]}]
+            },
+            {
+              "name": "Nyabitekeri",
+              "cells": [{"name": "Nyabitekeri", "villages": ["Nyabitekeri", "Bushenge", "Rangiro"]}]
+            },
+            {
+              "name": "Rangiro",
+              "cells": [{"name": "Rangiro", "villages": ["Rangiro", "Cyato", "Mahembe"]}]
+            },
+            {
+              "name": "Ruharambuga",
+              "cells": [{"name": "Ruharambuga", "villages": ["Ruharambuga", "Karambi", "Shangi"]}]
+            },
+            {
+              "name": "Shangi",
+              "cells": [{"name": "Shangi", "villages": ["Shangi", "Gihombo", "Karambi"]}]
+            }
+          ]
+        },
+        {
+          "name": "Rusizi",
+          "sectors": [
+            {
+              "name": "Kamembe",
+              "cells": [
+                {
+                  "name": "Kamembe",
+                  "villages": ["Kamembe", "Gihundwe", "Nkanka"]
+                }
+              ]
+            },
+            {
+              "name": "Bugarama",
+              "cells": [{"name": "Bugarama", "villages": ["Bugarama", "Gihundwe", "Nkungu"]}]
+            },
+            {
+              "name": "Butare",
+              "cells": [{"name": "Butare", "villages": ["Butare", "Gihundwe", "Nkungu"]}]
+            },
+            {
+              "name": "Bweyeye",
+              "cells": [{"name": "Bweyeye", "villages": ["Bweyeye", "Giheke", "Nkungu"]}]
+            },
+            {
+              "name": "Gashonga",
+              "cells": [{"name": "Gashonga", "villages": ["Gashonga", "Giheke", "Nkombo"]}]
+            },
+            {
+              "name": "Giheke",
+              "cells": [{"name": "Giheke", "villages": ["Giheke", "Gashonga", "Nkombo"]}]
+            },
+            {
+              "name": "Gihundwe",
+              "cells": [{"name": "Gihundwe", "villages": ["Gihundwe", "Kamembe", "Mururu"]}]
+            },
+            {
+              "name": "Gikundamvura",
+              "cells": [{"name": "Gikundamvura", "villages": ["Gikundamvura", "Nyakabuye", "Nkungu"]}]
+            },
+            {
+              "name": "Gitambi",
+              "cells": [{"name": "Gitambi", "villages": ["Gitambi", "Nkombo", "Nyakarenzo"]}]
+            },
+            {
+              "name": "Muganza",
+              "cells": [{"name": "Muganza", "villages": ["Muganza", "Mururu", "Nkanka"]}]
+            },
+            {
+              "name": "Mururu",
+              "cells": [{"name": "Mururu", "villages": ["Mururu", "Gihundwe", "Nkanka"]}]
+            },
+            {
+              "name": "Nkanka",
+              "cells": [{"name": "Nkanka", "villages": ["Nkanka", "Kamembe", "Nyakarenzo"]}]
+            },
+            {
+              "name": "Nkombo",
+              "cells": [{"name": "Nkombo", "villages": ["Nkombo", "Gashonga", "Gitambi"]}]
+            },
+            {
+              "name": "Nkungu",
+              "cells": [{"name": "Nkungu", "villages": ["Nkungu", "Bugarama", "Butare"]}]
+            },
+            {
+              "name": "Nyakabuye",
+              "cells": [{"name": "Nyakabuye", "villages": ["Nyakabuye", "Gikundamvura", "Nkungu"]}]
+            },
+            {
+              "name": "Nyakarenzo",
+              "cells": [{"name": "Nyakarenzo", "villages": ["Nyakarenzo", "Gitambi", "Nkanka"]}]
+            },
+            {
+              "name": "Nzahaha",
+              "cells": [{"name": "Nzahaha", "villages": ["Nzahaha", "Rwimbogo", "Shangi"]}]
+            },
+            {
+              "name": "Rwimbogo",
+              "cells": [{"name": "Rwimbogo", "villages": ["Rwimbogo", "Nzahaha", "Shangi"]}]
+            }
+          ]
+        },
+        {
+          "name": "Rutsiro",
+          "sectors": [
+            {
+              "name": "Boneza",
+              "cells": [{"name": "Boneza", "villages": ["Boneza", "Musasa", "Ruhango"]}]
+            },
+            {
+              "name": "Gihango",
+              "cells": [{"name": "Gihango", "villages": ["Gihango", "Murunda", "Rusebeya"]}]
+            },
+            {
+              "name": "Kigeyo",
+              "cells": [{"name": "Kigeyo", "villages": ["Kigeyo", "Mushonyi", "Ruhango"]}]
+            },
+            {
+              "name": "Kivumu",
+              "cells": [{"name": "Kivumu", "villages": ["Kivumu", "Manihira", "Musasa"]}]
+            },
+            {
+              "name": "Manihira",
+              "cells": [{"name": "Manihira", "villages": ["Manihira", "Mushonyi", "Rusebeya"]}]
+            },
+            {
+              "name": "Mukura",
+              "cells": [{"name": "Mukura", "villages": ["Mukura", "Murunda", "Rusebeya"]}]
+            },
+            {
+              "name": "Murunda",
+              "cells": [{"name": "Murunda", "villages": ["Murunda", "Mukura", "Rusebeya"]}]
+            },
+            {
+              "name": "Musasa",
+              "cells": [{"name": "Musasa", "villages": ["Musasa", "Boneza", "Kivumu"]}]
+            },
+            {
+              "name": "Mushonyi",
+              "cells": [{"name": "Mushonyi", "villages": ["Mushonyi", "Kigeyo", "Manihira"]}]
+            },
+            {
+              "name": "Mushubati",
+              "cells": [{"name": "Mushubati", "villages": ["Mushubati", "Ruhango", "Rusebeya"]}]
+            },
+            {
+              "name": "Nyabirasi",
+              "cells": [{"name": "Nyabirasi", "villages": ["Nyabirasi", "Ruhango", "Rusebeya"]}]
+            },
+            {
+              "name": "Ruhango",
+              "cells": [{"name": "Ruhango", "villages": ["Ruhango", "Boneza", "Mushubati"]}]
+            },
+            {
+              "name": "Rusebeya",
+              "cells": [{"name": "Rusebeya", "villages": ["Rusebeya", "Gihango", "Murunda"]}]
+            }
+          ]
+        },
+        {
+          "name": "Ngororero",
+          "sectors": [
+            {
+              "name": "Bwira",
+              "cells": [{"name": "Bwira", "villages": ["Bwira", "Gatumba", "Hindiro"]}]
+            },
+            {
+              "name": "Gatumba",
+              "cells": [{"name": "Gatumba", "villages": ["Gatumba", "Hindiro", "Kabaya"]}]
+            },
+            {
+              "name": "Hindiro",
+              "cells": [{"name": "Hindiro", "villages": ["Hindiro", "Kabaya", "Matyazo"]}]
+            },
+            {
+              "name": "Kabaya",
+              "cells": [{"name": "Kabaya", "villages": ["Kabaya", "Matyazo", "Muhanda"]}]
+            },
+            {
+              "name": "Kageyo",
+              "cells": [{"name": "Kageyo", "villages": ["Kageyo", "Kavumu", "Nyange"]}]
+            },
+            {
+              "name": "Kavumu",
+              "cells": [{"name": "Kavumu", "villages": ["Kavumu", "Kageyo", "Nyange"]}]
+            },
+            {
+              "name": "Matyazo",
+              "cells": [{"name": "Matyazo", "villages": ["Matyazo", "Muhanda", "Ndaro"]}]
+            },
+            {
+              "name": "Muhanda",
+              "cells": [{"name": "Muhanda", "villages": ["Muhanda", "Ndaro", "Sovu"]}]
+            },
+            {
+              "name": "Muhororo",
+              "cells": [{"name": "Muhororo", "villages": ["Muhororo", "Ndaro", "Sovu"]}]
+            },
+            {
+              "name": "Ndaro",
+              "cells": [{"name": "Ndaro", "villages": ["Ndaro", "Sovu", "Matyazo"]}]
+            },
+            {
+              "name": "Ngororero",
+              "cells": [{"name": "Ngororero", "villages": ["Ngororero", "Nyange", "Sovu"]}]
+            },
+            {
+              "name": "Nyange",
+              "cells": [{"name": "Nyange", "villages": ["Nyange", "Kageyo", "Ngororero"]}]
+            },
+            {
+              "name": "Sovu",
+              "cells": [{"name": "Sovu", "villages": ["Sovu", "Muhanda", "Muhororo"]}]
+            }
+          ]
+        },
+        {
+          "name": "Nyabihu",
+          "sectors": [
+            {
+              "name": "Bigogwe",
+              "cells": [{"name": "Bigogwe", "villages": ["Bigogwe", "Jenda", "Karago"]}]
+            },
+            {
+              "name": "Jenda",
+              "cells": [{"name": "Jenda", "villages": ["Jenda", "Karago", "Kintobo"]}]
+            },
+            {
+              "name": "Jomba",
+              "cells": [{"name": "Jomba", "villages": ["Jomba", "Mukamira", "Rambura"]}]
+            },
+            {
+              "name": "Kabatwa",
+              "cells": [{"name": "Kabatwa", "villages": ["Kabatwa", "Karago", "Kintobo"]}]
+            },
+            {
+              "name": "Karago",
+              "cells": [{"name": "Karago", "villages": ["Karago", "Kintobo", "Mukamira"]}]
+            },
+            {
+              "name": "Kintobo",
+              "cells": [{"name": "Kintobo", "villages": ["Kintobo", "Mukamira", "Rurembo"]}]
+            },
+            {
+              "name": "Mukamira",
+              "cells": [{"name": "Mukamira", "villages": ["Mukamira", "Rambura", "Rugera"]}]
+            },
+            {
+              "name": "Muringa",
+              "cells": [{"name": "Muringa", "villages": ["Muringa", "Rugera", "Rurembo"]}]
+            },
+            {
+              "name": "Rambura",
+              "cells": [{"name": "Rambura", "villages": ["Rambura", "Rugera", "Rurembo"]}]
+            },
+            {
+              "name": "Rugera",
+              "cells": [{"name": "Rugera", "villages": ["Rugera", "Mukamira", "Rurembo"]}]
+            },
+            {
+              "name": "Rurembo",
+              "cells": [{"name": "Rurembo", "villages": ["Rurembo", "Kintobo", "Muringa"]}]
+            },
+            {
+              "name": "Shyira",
+              "cells": [{"name": "Shyira", "villages": ["Shyira", "Rugera", "Rurembo"]}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

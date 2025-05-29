@@ -1,71 +1,49 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { Location, Hospital } from '../types';
-import { calculateDistance } from '../utils/geoLocation';
-import { mockHospitals } from '../data/mockData';
+import React, { createContext, useContext, useState } from 'react';
+
+interface Coordinates {
+  latitude: number;
+  longitude: number;
+}
+
+interface Location {
+  country: string;
+  province: string;
+  district: string;
+  sector: string;
+  coordinates?: Coordinates;
+}
 
 interface LocationContextType {
   userLocation: Location | null;
-  setUserLocation: (location: Location) => void;
+  setUserLocation: (location: Location | null) => void;
   isLoading: boolean;
   setIsLoading: (loading: boolean) => void;
-  hospitals: Hospital[];
-  nearbyHospitals: (Hospital & { distance: number })[];
-  updateLocationCoordinates: (coords: { latitude: number; longitude: number }) => void;
-  resetLocation: () => void;
+  updateLocationCoordinates: (coordinates: Coordinates) => void;
 }
-
-const defaultLocation: Location = {
-  country: 'Rwanda',
-  district: '',
-  sector: '',
-  cell: '',
-  coordinates: undefined
-};
 
 const LocationContext = createContext<LocationContextType | undefined>(undefined);
 
-export const LocationProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+// Create a named function for the hook
+export function useLocation() {
+  const context = useContext(LocationContext);
+  if (context === undefined) {
+    throw new Error('useLocation must be used within a LocationProvider');
+  }
+  return context;
+}
+
+// Export the provider component
+export const LocationProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [userLocation, setUserLocation] = useState<Location | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState(false);
 
-  // Filter hospitals based on user's district
-  const hospitals = userLocation
-    ? mockHospitals.filter(
-        (hospital) => hospital.district.toLowerCase() === userLocation.district.toLowerCase()
-      )
-    : [];
-
-  // Calculate distance for each hospital and sort by proximity
-  const nearbyHospitals = userLocation?.coordinates
-    ? hospitals
-        .map((hospital) => {
-          const distance = calculateDistance(
-            userLocation.coordinates!.latitude,
-            userLocation.coordinates!.longitude,
-            hospital.coordinates.latitude,
-            hospital.coordinates.longitude
-          );
-          return { ...hospital, distance };
-        })
-        .sort((a, b) => a.distance - b.distance)
-    : [];
-
-  const updateLocationCoordinates = (coords: { latitude: number; longitude: number }) => {
+  const updateLocationCoordinates = (coordinates: Coordinates) => {
     if (userLocation) {
       setUserLocation({
         ...userLocation,
-        coordinates: coords
-      });
-    } else {
-      setUserLocation({
-        ...defaultLocation,
-        coordinates: coords
+        coordinates
       });
     }
-  };
-
-  const resetLocation = () => {
-    setUserLocation(null);
   };
 
   return (
@@ -75,10 +53,7 @@ export const LocationProvider: React.FC<{ children: ReactNode }> = ({ children }
         setUserLocation,
         isLoading,
         setIsLoading,
-        hospitals,
-        nearbyHospitals,
-        updateLocationCoordinates,
-        resetLocation
+        updateLocationCoordinates
       }}
     >
       {children}
@@ -86,10 +61,4 @@ export const LocationProvider: React.FC<{ children: ReactNode }> = ({ children }
   );
 };
 
-export const useLocation = (): LocationContextType => {
-  const context = useContext(LocationContext);
-  if (context === undefined) {
-    throw new Error('useLocation must be used within a LocationProvider');
-  }
-  return context;
-};
+export type { Location, Coordinates };

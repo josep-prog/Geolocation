@@ -146,7 +146,11 @@ export const mockHospitals: Hospital[] = [
     district: 'nyarugenge',
     sector: 'gitega',
     cell: 'kigali',
-    address: 'KN 4 Ave, Kigali'
+    address: 'KN 4 Ave, Kigali',
+    rating: 4.8,
+    reviewCount: 320,
+    specialties: ['Malaria', 'Tuberculosis', 'Cancer', 'Heart Disease'],
+    phoneNumber: '+250 788 123 456'
   },
   {
     id: '2',
@@ -159,7 +163,11 @@ export const mockHospitals: Hospital[] = [
     district: 'gasabo',
     sector: 'kacyiru',
     cell: 'kamatamu',
-    address: 'KG 544 St, Kigali'
+    address: 'KG 544 St, Kigali',
+    rating: 4.9,
+    reviewCount: 450,
+    specialties: ['Cardiology', 'Neurology', 'Oncology', 'Pediatrics', 'Orthopedics'],
+    phoneNumber: '+250 788 234 567'
   },
   {
     id: '3',
@@ -172,7 +180,11 @@ export const mockHospitals: Hospital[] = [
     district: 'kicukiro',
     sector: 'kanombe',
     cell: 'nyarugunga',
-    address: 'KK 15 Ave, Kigali'
+    address: 'KK 15 Ave, Kigali',
+    rating: 4.7,
+    reviewCount: 280,
+    specialties: ['Emergency Care', 'Surgery', 'Internal Medicine', 'Rehabilitation'],
+    phoneNumber: '+250 788 345 678'
   },
   {
     id: '4',
@@ -185,7 +197,11 @@ export const mockHospitals: Hospital[] = [
     district: 'rusizi',
     sector: 'gihundwe',
     cell: 'gihundwe',
-    address: 'Rusizi District Hospital Road'
+    address: 'Rusizi District Hospital Road',
+    rating: 4.5,
+    reviewCount: 180,
+    specialties: ['General Medicine', 'Maternity', 'Pediatrics', 'HIV/AIDS Care'],
+    phoneNumber: '+250 788 456 789'
   },
   {
     id: '5',
@@ -198,23 +214,116 @@ export const mockHospitals: Hospital[] = [
     district: 'rusizi',
     sector: 'kamembe',
     cell: 'kamembe',
-    address: 'Main Street, Kamembe'
+    address: 'Kamembe Town Center',
+    rating: 4.3,
+    reviewCount: 120,
+    specialties: ['Family Medicine', 'Dental Care', 'Ophthalmology'],
+    phoneNumber: '+250 788 567 890'
   },
   {
     id: '6',
-    name: 'Rusizi Medical Center',
-    availableSlots: 2,
+    name: 'Musanze District Hospital',
+    availableSlots: 6,
     coordinates: {
-      latitude: -2.4865,
-      longitude: 28.9067
+      latitude: -1.4977,
+      longitude: 29.6349
     },
-    district: 'rusizi',
-    sector: 'kamembe',
-    cell: 'cyangugu',
-    address: 'Hospital Road, Rusizi'
+    district: 'musanze',
+    sector: 'muhoza',
+    cell: 'cyabararika',
+    address: 'Musanze District Hospital Road',
+    rating: 4.6,
+    reviewCount: 210,
+    specialties: ['General Medicine', 'Surgery', 'Pediatrics', 'Maternity'],
+    phoneNumber: '+250 788 678 901'
   },
   {
     id: '7',
+    name: 'Ruhengeri Hospital',
+    availableSlots: 4,
+    coordinates: {
+      latitude: -1.4989,
+      longitude: 29.6320
+    },
+    district: 'musanze',
+    sector: 'muhoza',
+    cell: 'ruhengeri',
+    address: 'Ruhengeri Town Center',
+    rating: 4.4,
+    reviewCount: 150,
+    specialties: ['Internal Medicine', 'Orthopedics', 'Emergency Care'],
+    phoneNumber: '+250 788 789 012'
+  },
+  {
+    id: '8',
+    name: 'Huye District Hospital',
+    availableSlots: 7,
+    coordinates: {
+      latitude: -2.6016,
+      longitude: 29.7399
+    },
+    district: 'huye',
+    sector: 'ngoma',
+    cell: 'butare',
+    address: 'Huye District Hospital Road',
+    rating: 4.5,
+    reviewCount: 190,
+    specialties: ['General Medicine', 'Surgery', 'Pediatrics', 'Obstetrics'],
+    phoneNumber: '+250 788 890 123'
+  },
+  {
+    id: '9',
+    name: 'CHUB - University Teaching Hospital of Butare',
+    availableSlots: 5,
+    coordinates: {
+      latitude: -2.6027,
+      longitude: 29.7390
+    },
+    district: 'huye',
+    sector: 'ngoma',
+    cell: 'butare',
+    address: 'University of Rwanda Road',
+    rating: 4.7,
+    reviewCount: 280,
+    specialties: ['Cardiology', 'Neurology', 'Oncology', 'Research'],
+    phoneNumber: '+250 788 901 234'
+  },
+  {
+    id: '10',
+    name: 'Rubavu District Hospital',
+    availableSlots: 4,
+    coordinates: {
+      latitude: -1.6975,
+      longitude: 29.2899
+    },
+    district: 'rubavu',
+    sector: 'gisenyi',
+    cell: 'gisenyi',
+    address: 'Lake Kivu Road',
+    rating: 4.4,
+    reviewCount: 160,
+    specialties: ['General Medicine', 'Emergency Care', 'Pediatrics'],
+    phoneNumber: '+250 788 012 345'
+  },
+  {
+    id: '11',
+    name: 'Gisenyi Hospital',
+    availableSlots: 3,
+    coordinates: {
+      latitude: -1.6968,
+      longitude: 29.2890
+    },
+    district: 'rubavu',
+    sector: 'gisenyi',
+    cell: 'gisenyi',
+    address: 'Gisenyi Town Center',
+    rating: 4.3,
+    reviewCount: 140,
+    specialties: ['Surgery', 'Maternity', 'Internal Medicine'],
+    phoneNumber: '+250 788 123 456'
+  },
+  {
+    id: '12',
     name: 'Remera Health Center',
     availableSlots: 4,
     coordinates: {
@@ -224,10 +333,14 @@ export const mockHospitals: Hospital[] = [
     district: 'gasabo',
     sector: 'remera',
     cell: 'rukiri_i',
-    address: 'KG 11 Ave, Remera'
+    address: 'KG 11 Ave, Remera',
+    rating: 4.2,
+    reviewCount: 95,
+    specialties: ['Primary Care', 'Vaccination', 'Family Medicine'],
+    phoneNumber: '+250 788 234 567'
   },
   {
-    id: '8',
+    id: '13',
     name: 'Kimironko Medical Plaza',
     availableSlots: 7,
     coordinates: {
@@ -237,6 +350,10 @@ export const mockHospitals: Hospital[] = [
     district: 'gasabo',
     sector: 'kimironko',
     cell: 'kibagabaga',
-    address: 'KG 8 Ave, Kimironko'
+    address: 'KG 8 Ave, Kimironko',
+    rating: 4.4,
+    reviewCount: 120,
+    specialties: ['Family Medicine', 'Pediatrics', 'Dental Care'],
+    phoneNumber: '+250 788 345 678'
   }
 ];

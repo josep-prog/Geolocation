@@ -1,8 +1,8 @@
 export interface Location {
   country: string;
+  province: string;
   district: string;
   sector: string;
-  cell: string;
   coordinates?: {
     latitude: number;
     longitude: number;
@@ -19,11 +19,16 @@ export interface Hospital {
   };
   district: string;
   sector: string;
-  cell: string;
   address: string;
+  rating: number;
+  reviewCount: number;
+  specialties: string[];
+  phoneNumber: string;
 }
 
 export interface LocationOption {
   label: string;
   value: string;
 }
+
+export type SortOption = 'distance' | 'rating';

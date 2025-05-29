@@ -1,0 +1,210 @@
+{
+  "hospital_connections": {
+    "central_kigali": {
+      "name": "Central Kigali Cluster",
+      "hospitals": [
+        {
+          "id": "1",
+          "name": "CHUK",
+          "coordinates": {
+            "latitude": -1.9441,
+            "longitude": 30.0619
+          },
+          "nearby_hospitals": [
+            {
+              "id": "11",
+              "name": "Muhima Hospital",
+              "distance_km": 0.5,
+              "direction": "west"
+            },
+            {
+              "id": "18",
+              "name": "BAHO International Hospital",
+              "distance_km": 0.6,
+              "direction": "south"
+            },
+            {
+              "id": "13",
+              "name": "Hopital la Croix du Sud",
+              "distance_km": 0.8,
+              "direction": "southwest"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Muhima Hospital",
+          "coordinates": {
+            "latitude": -1.9447,
+            "longitude": 30.0574
+          },
+          "nearby_hospitals": [
+            {
+              "id": "1",
+              "name": "CHUK",
+              "distance_km": 0.5,
+              "direction": "east"
+            },
+            {
+              "id": "17",
+              "name": "Nyarugenge Hospital",
+              "distance_km": 1.0,
+              "direction": "south"
+            }
+          ]
+        }
+      ]
+    },
+    "remera_cluster": {
+      "name": "Remera-Kacyiru Cluster",
+      "hospitals": [
+        {
+          "id": "2",
+          "name": "King Faisal Hospital",
+          "coordinates": {
+            "latitude": -1.9563,
+            "longitude": 30.0911
+          },
+          "nearby_hospitals": [
+            {
+              "id": "14",
+              "name": "Kacyiru Police Hospital",
+              "distance_km": 1.2,
+              "direction": "north"
+            },
+            {
+              "id": "19",
+              "name": "WIWO Specialized Hospital",
+              "distance_km": 0.3,
+              "direction": "southeast"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Kacyiru Police Hospital",
+          "coordinates": {
+            "latitude": -1.9423,
+            "longitude": 30.0921
+          },
+          "nearby_hospitals": [
+            {
+              "id": "2",
+              "name": "King Faisal Hospital",
+              "distance_km": 1.2,
+              "direction": "south"
+            },
+            {
+              "id": "3",
+              "name": "Kibagabaga Hospital",
+              "distance_km": 2.5,
+              "direction": "northeast"
+            }
+          ]
+        }
+      ]
+    },
+    "eastern_kigali": {
+      "name": "Eastern Kigali Cluster",
+      "hospitals": [
+        {
+          "id": "3",
+          "name": "Kibagabaga Hospital",
+          "coordinates": {
+            "latitude": -1.9395,
+            "longitude": 30.1195
+          },
+          "nearby_hospitals": [
+            {
+              "id": "16",
+              "name": "Ndera Neuropsychiatric Hospital",
+              "distance_km": 2.8,
+              "direction": "east"
+            },
+            {
+              "id": "12",
+              "name": "Rwanda Military Hospital",
+              "distance_km": 3.2,
+              "direction": "southeast"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "name": "Ndera Neuropsychiatric Hospital",
+          "coordinates": {
+            "latitude": -1.9234,
+            "longitude": 30.1456
+          },
+          "nearby_hospitals": [
+            {
+              "id": "3",
+              "name": "Kibagabaga Hospital",
+              "distance_km": 2.8,
+              "direction": "west"
+            }
+          ]
+        }
+      ]
+    },
+    "southern_kigali": {
+      "name": "Southern Kigali Cluster",
+      "hospitals": [
+        {
+          "id": "12",
+          "name": "Rwanda Military Hospital",
+          "coordinates": {
+            "latitude": -1.9686,
+            "longitude": 30.1397
+          },
+          "nearby_hospitals": [
+            {
+              "id": "15",
+              "name": "Masaka Hospital",
+              "distance_km": 4.5,
+              "direction": "south"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "name": "Masaka Hospital",
+          "coordinates": {
+            "latitude": -2.0012,
+            "longitude": 30.1934
+          },
+          "nearby_hospitals": [
+            {
+              "id": "12",
+              "name": "Rwanda Military Hospital",
+              "distance_km": 4.5,
+              "direction": "north"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "clusters_summary": {
+    "central_kigali": {
+      "total_hospitals": 5,
+      "average_distance_km": 0.7,
+      "hospitals": ["CHUK", "Muhima Hospital", "Hopital la Croix du Sud", "Nyarugenge Hospital", "BAHO International"]
+    },
+    "remera_cluster": {
+      "total_hospitals": 3,
+      "average_distance_km": 1.3,
+      "hospitals": ["King Faisal Hospital", "Kacyiru Police Hospital", "WIWO Specialized Hospital"]
+    },
+    "eastern_kigali": {
+      "total_hospitals": 2,
+      "average_distance_km": 2.8,
+      "hospitals": ["Kibagabaga Hospital", "Ndera Neuropsychiatric Hospital"]
+    },
+    "southern_kigali": {
+      "total_hospitals": 2,
+      "average_distance_km": 4.5,
+      "hospitals": ["Rwanda Military Hospital", "Masaka Hospital"]
+    }
+  }
+} 

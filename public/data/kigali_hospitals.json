@@ -1,0 +1,172 @@
+{
+  "kigali_city": {
+    "nyarugenge": {
+      "district_name": "Nyarugenge",
+      "sectors": {
+        "gitega": {
+          "name": "Gitega",
+          "hospitals": [
+            {
+              "id": "1",
+              "name": "Kigali University Teaching Hospital (CHUK)",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9441,
+                "longitude": 30.0619
+              }
+            }
+          ]
+        },
+        "muhima": {
+          "name": "Muhima",
+          "hospitals": [
+            {
+              "id": "11",
+              "name": "Muhima District Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9447,
+                "longitude": 30.0574
+              }
+            }
+          ]
+        },
+        "nyarugenge": {
+          "name": "Nyarugenge",
+          "hospitals": [
+            {
+              "id": "13",
+              "name": "Hopital la Croix du Sud",
+              "type": "Private",
+              "coordinates": {
+                "latitude": -1.9512,
+                "longitude": 30.0589
+              }
+            },
+            {
+              "id": "17",
+              "name": "Nyarugenge Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9534,
+                "longitude": 30.0589
+              }
+            },
+            {
+              "id": "18",
+              "name": "BAHO International Hospital",
+              "type": "Private",
+              "coordinates": {
+                "latitude": -1.9498,
+                "longitude": 30.0623
+              }
+            }
+          ]
+        }
+      }
+    },
+    "gasabo": {
+      "district_name": "Gasabo",
+      "sectors": {
+        "remera": {
+          "name": "Remera",
+          "hospitals": [
+            {
+              "id": "2",
+              "name": "King Faisal Hospital",
+              "type": "Private",
+              "coordinates": {
+                "latitude": -1.9563,
+                "longitude": 30.0911
+              }
+            },
+            {
+              "id": "19",
+              "name": "WIWO Specialized Hospital",
+              "type": "Private",
+              "coordinates": {
+                "latitude": -1.9589,
+                "longitude": 30.0934
+              }
+            }
+          ]
+        },
+        "kimironko": {
+          "name": "Kimironko",
+          "hospitals": [
+            {
+              "id": "3",
+              "name": "Kibagabaga Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9395,
+                "longitude": 30.1195
+              }
+            }
+          ]
+        },
+        "kacyiru": {
+          "name": "Kacyiru",
+          "hospitals": [
+            {
+              "id": "14",
+              "name": "Kacyiru Police Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9423,
+                "longitude": 30.0921
+              }
+            }
+          ]
+        },
+        "ndera": {
+          "name": "Ndera",
+          "hospitals": [
+            {
+              "id": "16",
+              "name": "Ndera Neuropsychiatric Teaching Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9234,
+                "longitude": 30.1456
+              }
+            }
+          ]
+        }
+      }
+    },
+    "kicukiro": {
+      "district_name": "Kicukiro",
+      "sectors": {
+        "masaka": {
+          "name": "Masaka",
+          "hospitals": [
+            {
+              "id": "15",
+              "name": "Masaka Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -2.0012,
+                "longitude": 30.1934
+              }
+            }
+          ]
+        },
+        "kanombe": {
+          "name": "Kanombe",
+          "hospitals": [
+            {
+              "id": "12",
+              "name": "Rwanda Military Hospital",
+              "type": "Public",
+              "coordinates": {
+                "latitude": -1.9686,
+                "longitude": 30.1397
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+} 

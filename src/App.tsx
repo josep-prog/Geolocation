@@ -1,38 +1,41 @@
 import React from 'react';
 import { LocationProvider } from './context/LocationContext';
-import Header from './components/Header';
 import LocationSelector from './components/LocationSelector';
 import HospitalList from './components/HospitalList';
 
-function App() {
+const App: React.FC = () => {
   return (
     <LocationProvider>
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <Header />
-        
-        <main className="container mx-auto px-4 py-8 flex-1">
-          <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-800 mb-2">Find Hospitals Near You</h1>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Discover hospitals in your district with available appointment slots. 
-              Get real-time distance information to help you make the best choice.
-            </p>
+      <div className="min-h-screen bg-gray-50">
+        <header className="bg-white shadow-sm">
+          <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+            <h1 className="text-2xl font-bold text-gray-900">Rwanda Hospital Finder</h1>
           </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <LocationSelector />
-            <HospitalList />
+        </header>
+
+        <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+          <div className="px-4 py-6 sm:px-0">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="md:col-span-1">
+                <LocationSelector />
+              </div>
+              <div className="md:col-span-2">
+                <HospitalList />
+              </div>
+            </div>
           </div>
         </main>
-        
-        <footer className="bg-white py-6 border-t border-gray-200">
-          <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
-            <p>© 2025 Hospital Quick. All rights reserved.</p>
+
+        <footer className="bg-white shadow-sm mt-8">
+          <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+            <p className="text-center text-gray-500 text-sm">
+              © {new Date().getFullYear()} Rwanda Hospital Finder. All rights reserved.
+            </p>
           </div>
         </footer>
       </div>
     </LocationProvider>
   );
-}
+};
 
 export default App;
